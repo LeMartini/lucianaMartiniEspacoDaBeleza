@@ -284,12 +284,8 @@ td{
             font-size: 1.6rem;
         }
 
-        table{
+        table, .pagamento{
             width: 90%;
             margin: 10px;
         }
-
-        .pagamento{
-            width: 90%;
-            margin: 10px;
-        }
+    }
