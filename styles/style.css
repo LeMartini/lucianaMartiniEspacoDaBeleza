@@ -286,5 +286,9 @@ td{
 
         table{
             width: 90%;
+            margin: 10px;
+        }
+
+        .pagamento{
             margin: 0 0 10px 0;
-    }
+        }
