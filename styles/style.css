@@ -285,7 +285,7 @@ td{
         }
 
         .apresentacao__conteudo_botoes__botao{
-            font-size: 1.6rem;
+            font-size: 1.5rem;
         }
 
         .Pagamento__bandeira__visa{
@@ -310,6 +310,6 @@ td{
             height: 40px;
             width: 50px;
             padding: 0 15px 0px 0;
-    }
+        }
 
     }
