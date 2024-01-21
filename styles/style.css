@@ -1,0 +1,268 @@
+/*retira todas as margens e todos os espaçamentos dos elementos*/
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin:0;
+    padding:0;
+}
+
+:root{
+    --cor-primaria: #532F1E;
+    --cor-secundaria: white;
+    --cor-terciaria:#EBADAC;
+    --cor-quartenaria:#ffc56f;;
+    --cor-quintenaria:#ffcfe5;
+
+    --fonte-primaria:'Krona One', sans-serif;
+    --fonte-secundaria:'Montserrat', sans-serif;
+    --fonte-terciaria:'Cookie', cursive;
+}
+
+body {
+    /*height: 100vh; Serve para que toda a tela seja utilizada*/
+    box-sizing: border-box; /*Serve para que todos os elementos que estão contidos dentro do body, permaneçam ali, mesmo que seja inserida borda ou padding, o conteúdo será diminuído para que ele permaneça dentro da tag pai */
+    background-color: var(--cor-primaria);
+    color:var(--cor-secundaria);
+}
+
+.cabecalho{
+    padding: 2% 0% 0% 10%; /*ordem dos valores: superior → direito → inferior → esquerdo */
+}
+
+.cabecalho__menu{
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho__menu__link{
+    color: var(--cor-terciaria);
+    font-size: 1rem;
+    font-family: var(--fonte-secundaria);
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.cabecalho__menu__link:hover{
+    color: var(--cor-quartenaria)
+}
+
+.titulo-destaque{
+    color:var(--cor-terciaria)
+}
+
+.apresentacao{
+    padding:2% 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 82px;
+}
+
+.apresentacao__conteudo{
+    width: 50%;
+    display: flex;
+    flex-direction: column; /*Coloca todos os elementos em coluna*/
+    gap: 40px; /* espaçamento entre os elementos*/
+}
+
+.apresentacao__conteudo__titulo {
+    font-size: 1.5rem; /*1 REM = 16 px, o Rem permite que quando as letras do navegador forem alterdas, as letras do site também serão alteradas*/
+    font-family: var(--fonte-primaria);
+}
+
+.apresentacao__conteudo__paragrafo{
+    font-size: 1.05rem;
+    font-family: var(--fonte-secundaria);
+}
+
+.apresentacao__conteudo_botoes{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+}
+
+.apresentacao__conteudo_botoes__botao{
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+    border: 4px solid var(--cor-terciaria);
+    width: 50%;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 1.9rem;
+    padding: 12px 0; /*padding → espaço entre o conteúdo e a borda, o primeiro valor se refere ao eixo vertical e o segundo ao eixo horizontal*/
+    text-decoration: none;
+    color: var(--cor-secundaria);
+    font-family: var(--fonte-secundaria);
+    font-weight: 500;
+}
+
+.apresentacao__catalogo_botoes{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    gap: 32px;
+    align-items: center;
+}
+
+.apresentacao__conteudo_botoes__botao:hover{
+    border: 4px solid var(--cor-quartenaria)
+}
+
+.apresentacao__conteudo_botoes__subtitulo{
+    font-size: 1.5rem;
+    font-family: var(--fonte-primaria);
+    font-weight: 400;
+}
+
+.apresentacao__conteudo_botoes__botao__icone__instagram{
+    height: 40px;
+    width: 40px;
+}
+
+.apresentacao__conteudo_botoes__botao__icone__contato{
+    height: 40px;
+    width: 40px;
+}
+
+.observacoes__empresa__imagem{
+    width: 75%;
+}
+
+.rodape{
+    color: var(--cor-primaria);
+    background-color: var(--cor-terciaria);
+    font-size: 1rem;
+    font-family: var(--fonte-secundaria);
+    font-weight: 600;
+    text-align: center;
+    padding: 14px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 0px;
+}
+
+th, td {
+    border: 1px solid #EBADAC;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #532F1E;
+    font: var(--fonte-secundaria);
+    font-weight: 700;
+    font-size: 16px;
+    font-family: var(--fonte-secundaria);
+}
+
+td{
+    font-family: var(--fonte-secundaria);
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.Pagamento__bandeiras{
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+}
+
+.Pagamento__bandeira__visa{
+    height: 30px;
+    width: 70px;
+    padding: 0 20px 0 0;
+}
+
+.Pagamento__bandeira__hipercard{
+    height: 40px;
+    width: 90px;
+    padding: 0 20px 0 0;
+}
+
+.Pagamento__bandeira__elo{
+    height: 40px;
+    width: 100px;
+    padding: 0 15px 0px 0;
+}
+
+.Pagamento__bandeira__mastercard{
+    height: 50px;
+    width: 60px;
+    padding: 0 15px 0px 0;
+}
+
+.observacao__pagamento{
+    font-family: var(--fonte-secundaria);
+    font-weight: 500;
+    font-size: 18px;
+    margin: 0 0 10px 0;
+}
+
+.observacao__planos{
+    font-family: var(--fonte-secundaria);
+    font-weight: 600;
+    font-size: 20px;
+    margin: 0;
+}
+
+.observacao__estetica{
+    font-family: var(--fonte-secundaria);
+    font-weight: 600;
+    font-size: 20px;
+    margin: 0;
+}
+
+.titulo__descricao{
+    font-family: var(--fonte-secundaria);
+    font-weight: 600;
+    font-size: 30px;
+    margin: 0;
+    text-align: center;
+    color: var(--cor-quintenaria);
+}
+
+.observacoes__empresa{
+    display: inline;
+    text-align: center;
+}
+
+.observacao__empresa__descricao__titulo{
+    font-family: var(--fonte-terciaria);
+    font-size: 110px;
+    margin: 0;
+    text-align: center;
+    color: var(--cor-quintenaria);
+}
+
+.observacao__empresa__descricao__subtitulo{
+    font-family: var(--fonte-terciaria);
+    font-size: 70px;
+    margin: 0;
+    text-align: center;
+    color: var(--cor-quintenaria);
+}
+
+@media(max-width:725px) /*Serve para que enquanto estiver dentro da condição inserida dentro do parênteses, ele siga o estilo abaixo, diferente disso segue o estilo fora das chaves*/
+    {
+        .cabecalho{
+            padding:10%;
+        }
+
+        .cabecalho__menu{
+            justify-content: center;
+        }
+
+        .apresentacao{
+            flex-direction: column-reverse;
+            padding: 5%;
+        }
+
+        .apresentacao__conteudo{
+            width: auto;
+        }
+    }
