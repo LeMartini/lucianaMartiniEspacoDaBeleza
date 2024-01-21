@@ -269,4 +269,14 @@ td{
         .apresentacao__conteudo_botoes__botao{
             font-size: 20px;
         }
+
+        .apresentacao__conteudo_botoes__botao__icone__contato{
+            height: 30px;
+            width: 30px;
+        }
+
+        .apresentacao__conteudo_botoes__botao__icone__instagram{
+            height: 30px;
+            width: 30px; 
+        }
     }
