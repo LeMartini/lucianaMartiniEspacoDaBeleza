@@ -90,7 +90,7 @@ body {
     width: 50%;
     text-align: center;
     border-radius: 10px;
-    font-size: 1.8rem;
+    font-size: 1.9rem;
     padding: 12px 0; /*padding → espaço entre o conteúdo e a borda, o primeiro valor se refere ao eixo vertical e o segundo ao eixo horizontal*/
     text-decoration: none;
     color: var(--cor-secundaria);
@@ -278,5 +278,9 @@ td{
         .apresentacao__conteudo_botoes__botao__icone__instagram{
             height: 30px;
             width: 30px; 
+        }
+
+        .apresentacao__conteudo_botoes__botao{
+            font-size: 1.5rem;
         }
     }
