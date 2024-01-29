@@ -174,7 +174,7 @@ td{
 
 .Pagamento__bandeira__visa{
     height: 30px;
-    width: 70px;
+    width: 80px;
     padding: 0 20px 0 0;
 }
 
@@ -263,11 +263,7 @@ td{
         }
 
         .apresentacao__conteudo{
-            width: 90%;
-        }
-
-        .pagamento{
-            width: 90%;
+            width: auto;
         }
 
         .apresentacao__conteudo_botoes__botao{
@@ -285,31 +281,6 @@ td{
         }
 
         .apresentacao__conteudo_botoes__botao{
-            font-size: 1.4 vw;
+            font-size: 1.6rem;
         }
-
-        .Pagamento__bandeira__visa{
-        height: 20px;
-        width: 50px;
-        padding: 0 20px 0 0;
-        }
-        
-        .Pagamento__bandeira__hipercard{
-            height: 30px;
-            width: 70px;
-            padding: 0 20px 0 0;
-        }
-        
-        .Pagamento__bandeira__elo{
-            height: 30px;
-            width: 80px;
-            padding: 0 15px 0px 0;
-        }
-        
-        .Pagamento__bandeira__mastercard{
-            height: 40px;
-            width: 50px;
-            padding: 0 15px 0px 0;
-        }
-
     }
